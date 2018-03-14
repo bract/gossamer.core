@@ -17,16 +17,18 @@
   - [Todo] SSE middleware
 - Routes
   - [Todo] Endpoint logging
+  - [Todo] Use Calfpath 0.6.0
 
 
-## [WIP] 0.6.0 / 2018-March-??
+## 0.6.0-alpha1 / 2018-March-14
 
+- Use bract.core 0.6.0-alpha1
 - Features
   - Structured logging based on Cambium
   - Data-driven web routing based on Calfpath
 - Inducer
-  - log-mdc-codec-init
-  - calfpath-routes->ring-handler
-  - apply-route-wrappers
+  - `gossamer.core.inducer/log-mdc-codec-init`
+  - `gossamer.core.inducer/calfpath-routes->ring-handler`
+  - `gossamer.core.inducer/apply-route-wrappers`
 - Route wrapper
-  - inner-ping
+  - `gossamer.core.route/inner-ping`
