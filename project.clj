@@ -1,6 +1,6 @@
 (defproject bract/gossamer.core "0.6.0-SNAPSHOT"
   :description "A micro web framework module for Bract"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/bract/gossamer.core"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :global-vars {*warn-on-reflection* true
