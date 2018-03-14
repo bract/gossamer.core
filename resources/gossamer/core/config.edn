@@ -1,0 +1,16 @@
+{;;
+ ;; gossamer.core default config
+ ;;
+
+ ;; bract.ring config
+ "bract.ring.health.body.encoder" cheshire.core/generate-string
+ "bract.ring.health.content.type" "application/json"
+ "bract.ring.info.body.encoder"   cheshire.core/generate-string
+ "bract.ring.info.content.type"   "application/json"
+
+ ;; inner /ping endpoint wrapper
+ "gossamer.inner.ping.enabled"       true
+ "gossamer.inner.ping.endpoint.uris" ["/ping/inner" "/ping/inner/"]
+ "gossamer.inner.ping.endpoint.body" "pong-inner"
+ "gossamer.inner.ping.content.type"  "text/plain"
+ }

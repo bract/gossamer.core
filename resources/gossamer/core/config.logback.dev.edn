@@ -1,0 +1,17 @@
+{;;
+ ;; gossamer.core logback config for development
+ ;;
+
+ ;; verbose log levels
+ "logback.level.root"                "INFO"
+ "logback.level.app"                 "DEBUG"
+
+ ;; enable all logs
+ "logback.appender.console.enabled"  "true"
+ "logback.appender.jsonfile.enabled" "true"
+ "logback.appender.textfile.enabled" "true"
+
+ ;; immediate and pretty feedback
+ "logfile.json.pretty.print"         "true"
+ "logfile.immediate.flush"           "true"
+ }

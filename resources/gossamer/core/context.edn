@@ -1,0 +1,5 @@
+{;;
+ ;; gossamer.core default context
+ ;;
+ :gossamer/route-wrappers [gossamer.core.route/inner-ping]
+ }
