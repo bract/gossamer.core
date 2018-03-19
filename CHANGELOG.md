@@ -20,6 +20,15 @@
   - [Todo] Use Calfpath 0.6.0
 
 
+## [WIP] 0.6.0-alpha2 / 2018-March-??
+
+- [Todo] Use Calfpath 0.6.0
+- [Todo] Export property `"logback.app.base.package"`
+- [Todo] Use above property as base package name
+- [Todo] Add command to print version
+
+
+
 ## 0.6.0-alpha1 / 2018-March-14
 
 - Use bract.core 0.6.0-alpha1
