@@ -31,7 +31,8 @@
 
 
 (deftest test-calfpath-routes->ring-handler
-  (let [handler (-> {:gossamer/calfpath-routes routes}
+  (let [handler (-> {:gossamer/calfpath-routes routes
+                     :bract.core/config {"gossamer.routes.compile.options" {}}}
                   inducer/calfpath-routes->ring-handler
                   kdef/ctx-ring-handler)]
     (is (= {:status 200

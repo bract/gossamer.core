@@ -19,14 +19,18 @@
   ctx-ring-handler    [:bract.ring/ring-handler  fn?     "Application Ring handler"])
 
 
+(keypin/defkey  ; config keys - routes
+  cfg-routes-compile-options ["gossamer.routes.compile.options"   map?    "Compile options for Calfpath routes"])
+
+
 (keypin/defkey  ; config keys - flags
   {:pred kputil/bool?
    :parser kputil/any->bool}
-  cfg-route-inner-ping?     ["gossamer.inner.ping.enabled" {:doc "Add inner ping route for latency checks?"}])
+  cfg-route-inner-ping?      ["gossamer.inner.ping.enabled" {:doc "Add inner ping route for latency checks?"}])
 
 
 (keypin/defkey  ; config keys - inner ping route
-  cfg-route-inner-ping-uris ["gossamer.inner.ping.endpoint.uris" vector? "Vector of inner ping endpoint URIs"
-                             {:parser kputil/any->edn}]
-  cfg-route-inner-ping-body ["gossamer.inner.ping.endpoint.body" string? "String body for inner ping response"]
-  cfg-route-inner-ping-type ["gossamer.inner.ping.content.type"  string? "Content type for inner ping body"])
+  cfg-route-inner-ping-uris  ["gossamer.inner.ping.endpoint.uris" vector? "Vector of inner ping endpoint URIs"
+                              {:parser kputil/any->edn}]
+  cfg-route-inner-ping-body  ["gossamer.inner.ping.endpoint.body" string? "String body for inner ping response"]
+  cfg-route-inner-ping-type  ["gossamer.inner.ping.content.type"  string? "Content type for inner ping body"])

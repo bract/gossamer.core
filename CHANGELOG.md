@@ -24,7 +24,7 @@
 
 - Use Calfpath 0.6.0
   - [Todo] Use the GA version
-- [Todo] Use config for compiling Calfpath routes
+- Use config for compiling Calfpath routes
 - [Todo] Export property `"logback.app.base.package"`
 - [Todo] Use above property as base package name
 - [Todo] Add command to print version

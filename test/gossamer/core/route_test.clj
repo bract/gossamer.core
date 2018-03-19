@@ -16,7 +16,8 @@
 
 
 (deftest test-inner-ping
-  (let [handler (-> {:bract.core/config {"gossamer.inner.ping.enabled" true
+  (let [handler (-> {:bract.core/config {"gossamer.routes.compile.options" {}
+                                         "gossamer.inner.ping.enabled" true
                                          "gossamer.inner.ping.endpoint.uris" ["/ping/inner"
                                                                               "/ping/inner/"]
                                          "gossamer.inner.ping.endpoint.body" "pong-inner"

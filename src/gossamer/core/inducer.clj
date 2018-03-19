@@ -9,7 +9,9 @@
 
 (ns gossamer.core.inducer
   (:require
+    [bract.core.echo      :as echo]
     [bract.core.inducer   :as core-inducer]
+    [bract.core.keydef    :as core-kdef]
     [bract.core.type      :as core-type]
     [bract.core.util      :as core-util]
     [calfpath.route       :as croute]
@@ -29,11 +31,17 @@
 
 
 (defn calfpath-routes->ring-handler
-  [context]
-  (->> (kdef/ctx-calfpath-routes context)
-    croute/compile-routes
-    croute/make-dispatcher
-    (assoc context (key kdef/ctx-ring-handler))))
+  "Given a context, Calfpath routes and compilation options, compile the routes and produce a Ring handler."
+  ([context]
+    (calfpath-routes->ring-handler context (-> context
+                                             core-kdef/ctx-config
+                                             kdef/cfg-routes-compile-options
+                                             (echo/->echo "Compiling Calfpath routes with options:"))))
+  ([context compile-options]
+    (as-> (kdef/ctx-calfpath-routes context) $
+      (croute/compile-routes $ compile-options)
+      (croute/make-dispatcher $)
+      (assoc context (key kdef/ctx-ring-handler) $))))
 
 
 (defn apply-route-wrappers
