@@ -36,7 +36,7 @@
     (calfpath-routes->ring-handler context (-> context
                                              core-kdef/ctx-config
                                              kdef/cfg-routes-compile-options
-                                             (echo/->echo "Compiling Calfpath routes with options:"))))
+                                             (echo/->echo "Compiling Calfpath routes with options"))))
   ([context compile-options]
     (as-> (kdef/ctx-calfpath-routes context) $
       (croute/compile-routes $ compile-options)
