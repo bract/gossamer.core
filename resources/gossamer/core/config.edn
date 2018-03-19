@@ -8,6 +8,9 @@
  "bract.ring.info.body.encoder"   cheshire.core/generate-string
  "bract.ring.info.content.type"   "application/json"
 
+ ;; routes
+ "gossamer.routes.compile.options"   {}
+
  ;; inner /ping endpoint wrapper
  "gossamer.inner.ping.enabled"       true
  "gossamer.inner.ping.endpoint.uris" ["/ping/inner" "/ping/inner/"]
