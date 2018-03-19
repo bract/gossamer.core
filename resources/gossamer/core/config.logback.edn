@@ -3,6 +3,7 @@
  ;;
 
  "bract.core.exports" ["logback.statuslistener.enabled"
+                       "logback.app.base.package"          ; not defined in this file, your app config must define it
                        "logback.level.root"
                        "logback.level.app"
                        "logback.appender.console.enabled"

@@ -22,13 +22,11 @@
 
 ## [WIP] 0.6.0-alpha2 / 2018-March-??
 
-- Use Calfpath 0.6.0
-  - [Todo] Use the GA version
+- Use Calfpath 0.6.0-alpha2
 - Use config for compiling Calfpath routes
-- [Todo] Export property `"logback.app.base.package"`
-- [Todo] Use above property as base package name
-- [Todo] Add command to print version
-
+- Use app base package for provided logging config
+  - Require variable `logback.app.base.package` in `logback-included.xml`
+  - Export property `"logback.app.base.package"` in `config.logback.edn`
 
 
 ## 0.6.0-alpha1 / 2018-March-14
