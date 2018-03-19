@@ -31,7 +31,7 @@
 (defn calfpath-routes->ring-handler
   [context]
   (->> (kdef/ctx-calfpath-routes context)
-    croute/make-routes
+    croute/compile-routes
     croute/make-dispatcher
     (assoc context (key kdef/ctx-ring-handler))))
 
