@@ -20,7 +20,7 @@
   - [Todo] Use Calfpath 0.6.0
 
 
-## [WIP] 0.6.0-alpha2 / 2018-March-??
+## 0.6.0-alpha2 / 2018-March-20
 
 - Use Calfpath 0.6.0-alpha2
 - Use config for compiling Calfpath routes

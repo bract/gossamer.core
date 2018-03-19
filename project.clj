@@ -1,4 +1,4 @@
-(defproject bract/gossamer.core "0.6.0-alpha2-SNAPSHOT"
+(defproject bract/gossamer.core "0.6.0-alpha2"
   :description "A micro web framework module for Bract"
   :url "https://github.com/bract/gossamer.core"
   :license {:name "Eclipse Public License"
@@ -9,7 +9,7 @@
   :pedantic?    :warn
   :dependencies [[bract/bract.core "0.6.0-alpha1"]
                  ;; web
-                 [calfpath         "0.6.0-alpha1"]
+                 [calfpath         "0.6.0-alpha2"]
                  ;; logging
                  [cambium/cambium.core           "0.9.1"]
                  [cambium/cambium.codec-cheshire "0.9.1"]
