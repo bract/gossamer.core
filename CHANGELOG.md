@@ -20,6 +20,12 @@
   - [Todo] Use Calfpath 0.6.0
 
 
+## [WIP] 0.6.0-alpha3 / 2018-March-??
+
+- [Todo] Use cambium.core 0.9.2
+- [Todo] Use cambium.logback 0.4.2
+
+
 ## 0.6.0-alpha2 / 2018-March-20
 
 - Use Calfpath 0.6.0-alpha2
