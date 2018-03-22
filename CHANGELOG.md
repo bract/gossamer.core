@@ -30,6 +30,10 @@
   - Dev:  app - TRACE, root - INFO
   - Root: app - INFO,  root - WARN
 - Default config for Cambium caller-metadata
+- Inducers
+  - Add `log-mdc-codec-init-only`
+  - Add `register-logback-deinit`
+  - Refactor `log-mdc-codec-init` to use above two
 
 
 ## 0.6.0-alpha2 / 2018-March-20
