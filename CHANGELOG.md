@@ -22,9 +22,14 @@
 
 ## [WIP] 0.6.0-alpha3 / 2018-March-??
 
-- Use bract.core 0.6.2-alpha2
-- Use cambium.core 0.9.2
-- Use cambium.logback 0.4.2
+- Update dependencies
+  - bract.core 0.6.2-alpha2
+  - cambium.core 0.9.2
+  - cambium.logback 0.4.2
+- Update default log levels in provided Logback config
+  - Dev:  app - TRACE, root - INFO
+  - Root: app - INFO,  root - WARN
+- Default config for Cambium caller-metadata
 
 
 ## 0.6.0-alpha2 / 2018-March-20

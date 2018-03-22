@@ -4,7 +4,7 @@
 
  ;; verbose log levels
  "logback.level.root"                "INFO"
- "logback.level.app"                 "DEBUG"
+ "logback.level.app"                 "TRACE"
 
  ;; enable all logs
  "logback.appender.console.enabled"  "true"

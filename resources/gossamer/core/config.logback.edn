@@ -2,7 +2,8 @@
  ;; gossamer.core logback config for prod
  ;;
 
- "bract.core.exports" ["logback.statuslistener.enabled"
+ "bract.core.exports" ["cambium.caller.meta.in.context"
+                       "logback.statuslistener.enabled"
                        "logback.app.base.package"          ; not defined in this file, your app config must define it
                        "logback.level.root"
                        "logback.level.app"
@@ -21,9 +22,12 @@
                        "logfile.async.queue.size"
                        "logfile.async.discard.at"
                        "net.spy.log.LoggerImpl"]
+ ;; cambium
+ "cambium.caller.meta.in.context"    "true"
+ ;; logback
  "logback.statuslistener.enabled"    "false"  ; false disables the verbose Logback initialization output
- "logback.level.root"                "ERROR"
- "logback.level.app"                 "WARN"
+ "logback.level.root"                "WARN"
+ "logback.level.app"                 "INFO"
  "logback.appender.console.enabled"  "false"
  "logback.appender.jsonfile.enabled" "true"
  "logback.appender.textfile.enabled" "true"
