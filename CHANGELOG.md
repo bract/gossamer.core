@@ -20,7 +20,7 @@
   - [Todo] Use Calfpath 0.6.0
 
 
-## [WIP] 0.6.0-alpha3 / 2018-March-??
+## 0.6.0-alpha3 / 2018-March-23
 
 - Update dependencies
   - bract.core 0.6.0-alpha3
