@@ -23,7 +23,8 @@
 ## [WIP] 0.6.0-alpha3 / 2018-March-??
 
 - Update dependencies
-  - bract.core 0.6.2-alpha2
+  - bract.core 0.6.0-alpha3
+    - [Todo] Use Clojars version
   - cambium.core 0.9.2
   - cambium.logback 0.4.2
 - Update default log levels in provided Logback config
