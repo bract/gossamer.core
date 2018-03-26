@@ -20,6 +20,11 @@
   - [Todo] Use Calfpath 0.6.0
 
 
+## 0.6.0-beta1 / 2018-March-27
+
+- Upgrade bract.core to 0.6.0-beta1
+
+
 ## 0.6.0-alpha4 / 2018-March-25
 
 - Upgrade bract.core to 0.6.0-alpha4

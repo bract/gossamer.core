@@ -1,4 +1,4 @@
-(defproject bract/gossamer.core "0.6.0-alpha4"
+(defproject bract/gossamer.core "0.6.0-beta1"
   :description "A micro web framework module for Bract"
   :url "https://github.com/bract/gossamer.core"
   :license {:name "Eclipse Public License"
@@ -7,7 +7,7 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :pedantic?    :warn
-  :dependencies [[bract/bract.core "0.6.0-alpha4"]
+  :dependencies [[bract/bract.core "0.6.0-beta1"]
                  ;; web
                  [calfpath         "0.6.0-alpha2"]
                  ;; logging
