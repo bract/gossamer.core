@@ -17,7 +17,6 @@
   - [Todo] SSE middleware
 - Routes
   - [Todo] Endpoint logging
-  - [Todo] Use Calfpath 0.6.0
 
 
 ## [WIP] 0.6.0-beta2 / 2018-April-??
