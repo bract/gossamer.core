@@ -7,7 +7,7 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :pedantic?    :warn
-  :dependencies [[bract/bract.core "0.6.0-beta2-SNAPSHOT"]
+  :dependencies [[bract/bract.core "0.6.0-beta2"]
                  ;; web
                  [calfpath         "0.6.0"]
                  ;; logging
@@ -25,4 +25,3 @@
              :c18 {:dependencies [[org.clojure/clojure "1.8.0"]]}
              :c19 {:dependencies [[org.clojure/clojure "1.9.0"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
-

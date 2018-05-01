@@ -22,7 +22,6 @@
 ## [WIP] 0.6.0-beta2 / 2018-April-??
 
 - Upgrade bract.core to 0.6.0-beta2
-  - [Todo] Use GA version
 - Upgrade Calfpath to version 0.6.0
 - Direct logs from other logging libraries to SLF4j
 
