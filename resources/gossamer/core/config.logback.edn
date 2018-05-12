@@ -14,9 +14,14 @@
                        "logfile.app.text.name"
                        "logfile.metrics.json.name"
                        "logfile.metrics.text.name"
+                       ;;
+                       "logfile.rotation.enabled"
+                       "logfile.rotation.gzip.enabled"
+                       "logfile.rotation.freq.pattern"
                        "logfile.max.filesize"
-                       "logfile.maxhistory.days"
+                       "logfile.maxhistory.units"
                        "logfile.archive.totalsize"
+                       ;;
                        "logfile.json.pretty.print"
                        "logfile.immediate.flush"
                        "logfile.async.queue.size"
@@ -24,6 +29,14 @@
                        "net.spy.log.LoggerImpl"]
  ;; cambium
  "cambium.caller.meta.in.context"    "true"
+
+ ;; handy values for logback
+  ;; handy values may be used to specify `logfile.rotation.freq.pattern`
+ "logfile.rotation.freq.monthly" "yyyy-MM"           ; monthly rollover at end of month midnight
+ "logfile.rotation.freq.daily"   "yyyy-MM-dd"        ; daily rollover at midnight
+ "logfile.rotation.freq.hourly"  "yyyy-MM-dd_HH"     ; rollover at the top of every hour
+ "logfile.rotation.freq.minute"  "yyyy-MM-dd_HH-mm"  ; rollover at the begnning of every minute
+
  ;; logback
  "logback.statuslistener.enabled"    "false"  ; false disables the verbose Logback initialization output
  "logback.level.root"                "WARN"
@@ -35,8 +48,11 @@
  "logfile.app.text.name"             "logs/application_text.log"
  "logfile.metrics.json.name"         "logs/metrics_json.log"
  "logfile.metrics.text.name"         "logs/metrics_text.log"
+ "logfile.rotation.enabled"          "true"
+ "logfile.rotation.gzip.enabled"     "true"
+ "logfile.rotation.freq.pattern"     "${logfile.rotation.freq.daily}"
  "logfile.max.filesize"              "100MB"
- "logfile.maxhistory.days"           "10"
+ "logfile.maxhistory.units"          "10"
  "logfile.archive.totalsize"         "10GB"
  "logfile.json.pretty.print"         "false"
  "logfile.immediate.flush"           "false"

@@ -23,12 +23,10 @@
 
 - Upgrade bract.core to version 0.6.0-beta3
 - Logging
-  - [Todo] Make log rotation/archival configurable
-    - [Todo] Make logfile compression configurable
-    - [Todo] Introduce config `logfile.rotation.freq.pattern` to indicate frequency/pattern of rotation
-    - [Todo] [BREAKING CHANGE] Rename config `logfile.maxhistory.days` to `logfile.maxhistory.units`
-    - [Todo] Update log config - `units` insted of `days` in `gossamer/core/logback-included.xml`
-  - [Todo] Fix config - move `immediateFlush` element from encoder to appender (Logback >= 1.2.0)
+  - Make log rotation/archival configurable in `gossamer/core/logback-included.xml`
+    - Make logfile compression configurable
+    - Introduce config `logfile.rotation.freq.pattern` to indicate frequency/pattern of rotation
+    - [BREAKING CHANGE] Rename config `logfile.maxhistory.days` to `logfile.maxhistory.units`
 
 
 ## 0.6.0-beta2 / 2018-May-01
