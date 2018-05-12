@@ -21,6 +21,7 @@
 
 ## [WIP] 0.6.0-beta3 / 2018-May-??
 
+- Upgrade bract.core to version 0.6.0-beta3
 - Logging
   - [Todo] Make log rotation/archival configurable
     - [Todo] Make logfile compression configurable
