@@ -19,7 +19,7 @@
   - [Todo] Endpoint logging
 
 
-## [WIP] 0.6.0-beta3 / 2018-May-??
+## 0.6.0-beta3 / 2018-May-12
 
 - Upgrade bract.core to version 0.6.0-beta3
 - Logging
