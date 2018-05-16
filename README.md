@@ -3,11 +3,17 @@
 A micro web framework module for Bract.
 
 
-## Usage
+## Clojars coordinates
 
-Clojars coordinates: `[bract/gossamer.core "0.6.0-0.1.0-SNAPSHOT"]`
+Clojars coordinates: `[bract/gossamer.core "0.6.0-0.1.0"]`
 
-Documentation: FIXME
+## Documentation
+
+Bract documentation: https://bract.github.io/
+
+Module documentation: https://bract.github.io/module/gossamer.html
+
+Demo applications: https://bract.github.io/documentation.html#demo-applications
 
 
 ## License

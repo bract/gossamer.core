@@ -19,7 +19,7 @@
   - [Todo] Web route endpoint logging
 
 
-## [WIP] 0.6.0-0.1.0 / 2018-May-??
+## 0.6.0-0.1.0 / 2018-May-16
 
 - Dependencies
   - bract.core 0.6.0
