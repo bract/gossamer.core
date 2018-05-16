@@ -16,70 +16,36 @@
   - [Todo] Ring-metrics
   - [Todo] SSE middleware
 - Routes
-  - [Todo] Endpoint logging
+  - [Todo] Web route endpoint logging
 
 
-## 0.6.0-beta3 / 2018-May-12
+## [WIP] 0.6.0-0.1.0 / 2018-May-??
 
-- Upgrade bract.core to version 0.6.0-beta3
-- Logging
-  - Make log rotation/archival configurable in `gossamer/core/logback-included.xml`
-    - Make logfile compression configurable
-    - Introduce config `logfile.rotation.freq.pattern` to indicate frequency/pattern of rotation
-    - [BREAKING CHANGE] Rename config `logfile.maxhistory.days` to `logfile.maxhistory.units`
-
-
-## 0.6.0-beta2 / 2018-May-01
-
-- Upgrade bract.core to 0.6.0-beta2
-- Upgrade Calfpath to version 0.6.0
-- Direct logs from other logging libraries to SLF4j
-
-
-## 0.6.0-beta1 / 2018-March-27
-
-- Upgrade bract.core to 0.6.0-beta1
-
-
-## 0.6.0-alpha4 / 2018-March-25
-
-- Upgrade bract.core to 0.6.0-alpha4
-
-
-## 0.6.0-alpha3 / 2018-March-23
-
-- Update dependencies
-  - bract.core 0.6.0-alpha3
+- Dependencies
+  - bract.core 0.6.0
   - cambium.core 0.9.2
   - cambium.logback 0.4.2
-- Update default log levels in provided Logback config
-  - Dev:  app - TRACE, root - INFO
-  - Root: app - INFO,  root - WARN
-- Default config for Cambium caller-metadata
-- Inducers
-  - Add `log-mdc-codec-init-only`
-  - Add `register-logback-deinit`
-  - Refactor `log-mdc-codec-init` to use above two
-
-
-## 0.6.0-alpha2 / 2018-March-20
-
-- Use Calfpath 0.6.0-alpha2
-- Use config for compiling Calfpath routes
-- Use app base package for provided logging config
-  - Require variable `logback.app.base.package` in `logback-included.xml`
-  - Export property `"logback.app.base.package"` in `config.logback.edn`
-
-
-## 0.6.0-alpha1 / 2018-March-14
-
-- Use bract.core 0.6.0-alpha1
+  - Calfpath 0.6.0
 - Features
   - Structured logging based on Cambium
+    - Provided Logback config for text/JSON logs, log rotation/archival, application and metrics logs
+    - Direct logs from other logging libraries to SLF4j
+    - Default log levels
+      - Dev:  app - TRACE, root - INFO
+      - Root: app - INFO,  root - WARN
   - Data-driven web routing based on Calfpath
 - Inducer
-  - `gossamer.core.inducer/log-mdc-codec-init`
   - `gossamer.core.inducer/calfpath-routes->ring-handler`
   - `gossamer.core.inducer/apply-route-wrappers`
+  - `gossamer.core.inducer/log-mdc-codec-init-only`
+  - `gossamer.core.inducer/register-logback-deinit`
+  - `gossamer.core.inducer/log-mdc-codec-init` (based on `log-mdc-codec-init-only` and `register-logback-deinit`)
 - Route wrapper
   - `gossamer.core.route/inner-ping`
+- Resources
+  - Logging
+    - `gossamer/core/logback-included.xml`
+    - `gossamer/core/config.logback.edn`
+    - `gossamer/core/config.logback.dev.edn`
+  - Context: `gossamer/core/context.edn`
+  - Config: `gossamer/core/config.edn`
