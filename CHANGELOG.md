@@ -19,9 +19,9 @@
   - [Todo] Web route endpoint logging
 
 
-## 0.6.1-0.1.0 / 2018-October-??
+## 0.6.1-0.1.0 / 2018-October-10
 
-- [Todo] Upgrade bract.core to version 0.6.1
+- Upgrade bract.core to version 0.6.1
 
 
 ## 0.6.0-0.1.0 / 2018-May-16

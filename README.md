@@ -5,7 +5,7 @@ A micro web framework module for Bract.
 
 ## Clojars coordinates
 
-Clojars coordinates: `[bract/gossamer.core "0.6.0-0.1.0"]`
+Clojars coordinates: `[bract/gossamer.core "0.6.1-0.1.0"]`
 
 ## Documentation
 
