@@ -13,10 +13,14 @@
   - [Todo] SSE streaming (requires ring-sse-middleware dependency)
   - [Todo] Ring metrics  (requires ring-metrics dependency)
   - [Todo] Log level override (requires logback dependency)
-  - [Todo] Ring-metrics
-  - [Todo] SSE middleware
 - Routes
   - [Todo] Web route endpoint logging
+
+
+## [WIP] 0.6.1-0.1.1 / 2019-January-??
+
+- [Todo] Upgrade Calfpath to version 0.7.1
+- [Todo] Always emit verbose message in `gossamer.core.inducer/calfpath-routes->ring-handler`
 
 
 ## 0.6.1-0.1.0 / 2018-October-10
