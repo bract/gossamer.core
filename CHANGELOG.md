@@ -19,7 +19,7 @@
 
 ## [WIP] 0.6.1-0.1.1 / 2019-January-??
 
-- [Todo] Upgrade Calfpath to version 0.7.1
+- Upgrade Calfpath to version 0.7.1
 - [Todo] Always emit verbose message in `gossamer.core.inducer/calfpath-routes->ring-handler`
 
 

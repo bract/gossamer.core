@@ -9,7 +9,7 @@
   :pedantic?    :warn
   :dependencies [[bract/bract.core "0.6.1"]
                  ;; web
-                 [calfpath         "0.6.0"]
+                 [calfpath         "0.7.1"]
                  ;; logging
                  [cambium/cambium.core           "0.9.2"]
                  [cambium/cambium.codec-cheshire "0.9.2"]
