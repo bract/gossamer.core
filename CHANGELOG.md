@@ -13,11 +13,13 @@
   - [Todo] SSE streaming (requires ring-sse-middleware dependency)
   - [Todo] Ring metrics  (requires ring-metrics dependency)
   - [Todo] Log level override (requires logback dependency)
+  - [Idea] Security middleware (e.g. anti-forgery, XSS protection, SSL redirect etc. - as module?)
+  - [Idea] Session support (as module?)
 - Routes
   - [Todo] Web route endpoint logging
 
 
-## [WIP] 0.6.1-0.1.1 / 2019-January-??
+## 0.6.1-0.1.1 / 2019-January-06
 
 - Upgrade Calfpath to version 0.7.1
 - Always emit verbose message in `gossamer.core.inducer/calfpath-routes->ring-handler`
