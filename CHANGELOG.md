@@ -19,6 +19,12 @@
   - [Todo] Web route endpoint logging
 
 
+## 0.6.1-0.2.0 / 2019-January-??
+
+- [Todo] Include `gossamer/core/webapp-context.edn` resource for web app workflow
+- [Todo] Add utility fn `gossamer.core.util/handle-uncaught-exception`
+
+
 ## 0.6.1-0.1.1 / 2019-January-06
 
 - Upgrade Calfpath to version 0.7.1
