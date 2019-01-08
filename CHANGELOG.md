@@ -22,7 +22,20 @@
 ## 0.6.1-0.2.0 / 2019-January-??
 
 - [Todo] Include `gossamer/core/webapp-context.edn` resource for web app workflow
-- [Todo] Add utility fn `gossamer.core.util/handle-uncaught-exception`
+- [Todo] Add dependencies `bract.cli` and `bract.ring`
+- [Todo] Add key definitions
+  - app-version for `app.version` key
+  - host-name for `instance.hostname` key
+- [Todo] Add default config entries `gossamer/core/config.edn`
+  - `default.app.version`
+  - `app.version`
+  - `default.hostname`
+  - `instance.hostname`
+- [Todo] Add inducer
+  - `gossamer.core.inducer/abort`
+- Add utility fns
+  - `gossamer.core.util/handle-uncaught-exception`
+  - `gossamer.core.util/command-print-version`
 
 
 ## 0.6.1-0.1.1 / 2019-January-06
