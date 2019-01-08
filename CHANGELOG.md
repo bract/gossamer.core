@@ -25,12 +25,12 @@
 - [Todo] Add dependencies `bract.cli` and `bract.ring`
 - Add key definitions
   - app-version for `app.version` key
-  - host-name for `instance.hostname` key
-- [Todo] Add default config entries `gossamer/core/config.edn`
+  - host-name for `app.hostname` key
+- Add app config entries `gossamer/core/config.edn`
   - `default.app.version`
   - `app.version`
-  - `default.hostname`
-  - `instance.hostname`
+  - `default.app.hostname`
+  - `app.hostname`
 - Add inducer
   - `gossamer.core.inducer/abort`
 - Add utility fns

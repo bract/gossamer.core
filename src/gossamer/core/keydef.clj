@@ -37,5 +37,5 @@
 
 
 (keypin/defkey  ; config keys - application keys
-  cfg-app-version ["app.version"       string? "Application version"]
-  cfg-host-name   ["instance.hostname" string? "Instance hostname"])
+  cfg-app-version  ["app.version"  string? "Application version"]
+  cfg-app-hostname ["app.hostname" string? "Application hostname"])
