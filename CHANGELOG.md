@@ -33,9 +33,10 @@
   - `app.hostname`
 - Add inducer
   - `gossamer.core.inducer/abort`
-- Add utility fns
-  - `gossamer.core.util/handle-uncaught-exception`
-  - `gossamer.core.util/command-print-version`
+- Add utility fns (in `gossamer.core.util` ns)
+  - `handle-uncaught-exception`
+  - `command-print-version`
+  - `start-placeholder-server`
 
 
 ## 0.6.1-0.1.1 / 2019-January-06

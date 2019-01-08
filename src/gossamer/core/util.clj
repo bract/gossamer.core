@@ -9,7 +9,9 @@
 
 (ns gossamer.core.util
   (:require
+    [bract.core.echo :as echo]
     [bract.core.keydef :as bc-kdef]
+    [bract.core.util :as bc-util]
     [gossamer.core.keydef :as kdef]
     [cambium.core :as log]))
 
@@ -28,3 +30,18 @@
   [^Thread thread ^Throwable ex]
   (log/error (Throwable->map ex) ex (format "Uncaught exception on thread ID: %d, thread name: %s - (%s) %s"
                                       (.getId thread) (.getName thread) (class ex) (.getMessage ex))))
+
+
+(defn start-placeholder-server
+  [handler options]
+  (let [message "ERROR: You must specify one of the following entries in your bract-context.edn resource:
+
+:bract.ring/server-starter bract.ring.server/start-aleph-server    ; for Aleph server
+:bract.ring/server-starter bract.ring.server/start-http-kit-server ; for HTTP Kit server
+:bract.ring/server-starter bract.ring.server/start-immutant-server ; for Immutant server
+:bract.ring/server-starter bract.ring.server/start-jetty-server    ; for Jetty server
+
+*** No web server is started. ***"]
+    (echo/echo message)
+    (bc-util/err-println message))
+  (fn []))
