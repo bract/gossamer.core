@@ -21,7 +21,7 @@
 
 ## 0.6.1-0.2.0 / 2019-January-??
 
-- [Todo] Include `gossamer/core/webapp-context.edn` resource for web app workflow
+- Add `gossamer/core/webapp-context.edn` resource for webapp workflow
 - [Todo] Add dependencies `bract.cli` and `bract.ring`
 - Add key definitions
   - app-version for `app.version` key
