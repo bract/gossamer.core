@@ -23,7 +23,7 @@
 
 - [Todo] Include `gossamer/core/webapp-context.edn` resource for web app workflow
 - [Todo] Add dependencies `bract.cli` and `bract.ring`
-- [Todo] Add key definitions
+- Add key definitions
   - app-version for `app.version` key
   - host-name for `instance.hostname` key
 - [Todo] Add default config entries `gossamer/core/config.edn`
