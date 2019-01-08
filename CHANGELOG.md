@@ -31,7 +31,7 @@
   - `app.version`
   - `default.hostname`
   - `instance.hostname`
-- [Todo] Add inducer
+- Add inducer
   - `gossamer.core.inducer/abort`
 - Add utility fns
   - `gossamer.core.util/handle-uncaught-exception`
