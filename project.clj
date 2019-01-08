@@ -8,7 +8,9 @@
                 *unchecked-math* :warn-on-boxed}
   :pedantic?    :warn
   :dependencies [[bract/bract.core "0.6.1"]
-                 ;; web
+                 [bract/bract.cli  "0.6.1-0.1.0"]
+                 [bract/bract.ring "0.6.1-0.1.0"]
+                 ;; web routing
                  [calfpath         "0.7.1"]
                  ;; logging
                  [cambium/cambium.core           "0.9.2"]
