@@ -9,9 +9,11 @@
                               (bract.ring.inducer/apply-wrappers       $:bract.ring/wrappers) ; Ring wrappers from bract.ring
                               (bract.core.inducer/run-context-inducers :app/dev-inducers)
                               (bract.core.inducer/run-context-inducers :app/runtime-manage)]
- :app/pre-inducers           [(bract.cli.inducer/merge-commands $:app/cli-commands)]
+ :app/pre-inducers           [(bract.cli.inducer/merge-commands $:app/cli-commands)
+                              (bract.cli.inducer/merge-launch-commands $:app/cli-launch-commands)]
  :app/cli-commands           {"version" {:doc     "Print application version"
                                          :handler gossamer.core.util/command-print-version}}
+ :app/cli-launch-commands    {}
  :app/cli-inducers           [bract.cli.inducer/parse-args
                               (bract.core.inducer/run-context-inducers
                                 :app/cfg-inducers)
