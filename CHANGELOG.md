@@ -19,6 +19,28 @@
   - [Todo] Web route endpoint logging
 
 
+## 0.6.1-0.2.0 / 2019-January-10
+
+- Add resources for webapp workflow
+  - `gossamer/core/webapp-context.edn`
+  - `gossamer/core/webapp-context.dev.edn`
+- Add dependencies `bract.cli` and `bract.ring`
+- Add key definitions
+  - app-version for `app.version` key
+  - host-name for `app.hostname` key
+- Add app config entries `gossamer/core/config.edn`
+  - `default.app.version`
+  - `app.version`
+  - `default.app.hostname`
+  - `app.hostname`
+- Add inducer
+  - `gossamer.core.inducer/abort`
+- Add utility fns (in `gossamer.core.util` ns)
+  - `handle-uncaught-exception`
+  - `command-print-version`
+  - `start-placeholder-server`
+
+
 ## 0.6.1-0.1.1 / 2019-January-06
 
 - Upgrade Calfpath to version 0.7.1

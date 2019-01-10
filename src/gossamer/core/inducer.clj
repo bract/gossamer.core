@@ -19,6 +19,18 @@
     [gossamer.core.keydef :as kdef]))
 
 
+(defn abort
+  "Abort the entire inducer chain."
+  ;; TODO: Move this into bract.core.inducer
+  ([context]
+    (assoc context
+      (key core-kdef/ctx-exit?) true))
+  ([context message]
+    (echo/abort message)
+    (core-util/err-println "ERROR:" message)
+    (abort context)))
+
+
 (defn log-mdc-codec-init-only
   "Initialize SLF4j MDC codec for Logback."
   [context]

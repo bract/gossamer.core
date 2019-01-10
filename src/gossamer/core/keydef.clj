@@ -34,3 +34,8 @@
                               {:parser kputil/any->edn}]
   cfg-route-inner-ping-body  ["gossamer.inner.ping.endpoint.body" string? "String body for inner ping response"]
   cfg-route-inner-ping-type  ["gossamer.inner.ping.content.type"  string? "Content type for inner ping body"])
+
+
+(keypin/defkey  ; config keys - application keys
+  cfg-app-version  ["app.version"  string? "Application version"]
+  cfg-app-hostname ["app.hostname" string? "Application hostname"])
