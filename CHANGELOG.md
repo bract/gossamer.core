@@ -19,7 +19,7 @@
   - [Todo] Web route endpoint logging
 
 
-## 0.6.1-0.2.0 / 2019-January-??
+## 0.6.1-0.2.0 / 2019-January-10
 
 - Add resources for webapp workflow
   - `gossamer/core/webapp-context.edn`
