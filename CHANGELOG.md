@@ -19,6 +19,19 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0 / 2020-October-??
+
+- [Todo] Ring wrapper for request/response log
+  - [Todo] Ensure webapp displays request/response logs in dev mode
+- [Todo] Upgrade cambium.core, cambium.codec
+- [Todo] Upgrade cambium.logback
+- [Todo] Upgrade Calfpath
+- Documentation
+  - [Todo] Add _cljdoc_ badge
+  - [Todo] Reformat docstring for _cljdoc_
+  - [Todo] Add documentation page
+
+
 ## 0.6.1-0.2.0 / 2019-January-10
 
 - Add resources for webapp workflow
