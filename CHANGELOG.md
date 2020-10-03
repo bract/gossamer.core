@@ -39,7 +39,7 @@
 - Documentation
   - [Todo] Add _cljdoc_ badge
   - Reformat docstring for _cljdoc_
-  - [Todo] Add documentation page
+  - Add documentation page
 
 
 ## 0.6.1-0.2.0 / 2019-January-10
