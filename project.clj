@@ -13,12 +13,12 @@
                  ;; web routing
                  [calfpath         "0.7.1"]
                  ;; logging
-                 [cambium/cambium.core           "0.9.2"]
-                 [cambium/cambium.codec-cheshire "0.9.2"]
-                 [org.slf4j/jul-to-slf4j         "1.7.25"]  ; direct java.util.logging logs to SLF4j
-                 [org.slf4j/jcl-over-slf4j       "1.7.25"]  ; direct Java Commons-logging logs to SLF4j
-                 [org.slf4j/log4j-over-slf4j     "1.7.25"]  ; direct Log4j logs to SLF4j
-                 [cambium/cambium.logback.json   "0.4.2"]]
+                 [cambium/cambium.core           "1.0.0"]
+                 [cambium/cambium.codec-cheshire "1.0.0"]
+                 [org.slf4j/jul-to-slf4j         "1.7.30"]  ; direct java.util.logging logs to SLF4j
+                 [org.slf4j/jcl-over-slf4j       "1.7.30"]  ; direct Java Commons-logging logs to SLF4j
+                 [org.slf4j/log4j-over-slf4j     "1.7.30"]  ; direct Log4j logs to SLF4j
+                 [cambium/cambium.logback.json   "0.4.4"]]
   :profiles {:provided {:dependencies [[org.clojure/clojure "1.7.0"]]}
              :coverage {:plugins [[lein-cloverage "1.0.9"]]}
              :rel {:min-lein-version "2.7.1"

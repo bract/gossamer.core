@@ -29,9 +29,11 @@
     - bract.core to 0.6.2
     - bract.cli to 0.6.2-0.1.1
     - bract.ring to 0.6.2-0.2.0
-  - [Todo] Upgrade cambium.core, cambium.codec
-  - [Todo] Upgrade cambium.logback
-  - [Todo] Upgrade Calfpath
+  - Cambium modules
+    - SLF4j modules to 1.7.30
+    - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)
+    - cambium.codec-cheshire to 1.0.0 (pulls in Cheshire 5.10.0)
+    - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
 - Documentation
   - [Todo] Add _cljdoc_ badge
   - [Todo] Reformat docstring for _cljdoc_
