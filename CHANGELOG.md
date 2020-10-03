@@ -21,6 +21,7 @@
 
 ## [WIP] 0.6.2-0.3.0 / 2020-October-??
 
+- [TODO - BREAKING CHANGE] Move inducer `gossamer.core.inducer/abort` to bract.core
 - [Todo] Ring wrapper for request/response log
   - [Todo] Ensure webapp displays request/response logs in dev mode
 - [Todo] Upgrade cambium.core, cambium.codec
