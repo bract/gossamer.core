@@ -21,6 +21,7 @@
 
 ## [WIP] 0.6.2-0.3.0 / 2020-October-??
 
+- [BREAKING CHANGE] Drop support for Clojure 1.7 (due to Calfpath)
 - [TODO - BREAKING CHANGE] Move inducer `gossamer.core.inducer/abort` to bract.core
 - [Todo] Ring wrapper for request/response log
   - [Todo] Ensure webapp displays request/response logs in dev mode
@@ -34,6 +35,7 @@
     - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)
     - cambium.codec-cheshire to 1.0.0 (pulls in Cheshire 5.10.0)
     - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
+  - Calfpath to 0.8.0 (requires Clojure 1.8 or up)
 - Documentation
   - [Todo] Add _cljdoc_ badge
   - [Todo] Reformat docstring for _cljdoc_
