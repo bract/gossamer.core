@@ -8,6 +8,7 @@
 
 
 (ns gossamer.core.keydef
+  "Context and config key definitions in the gossamer.core module."
   (:require
     [keypin.core :as keypin]
     [keypin.util :as kputil]))

@@ -8,6 +8,7 @@
 
 
 (ns gossamer.core.inducer
+  "Inducers in the gossamer.core module."
   (:require
     [bract.core.echo      :as echo]
     [bract.core.inducer   :as core-inducer]
@@ -84,7 +85,7 @@
 
 
 (defn apply-route-wrappers
-  "Given a context with Calfpath routes under context key :gossamer/calfpath-routes apply the route wrappers i.e.
+  "Given a context with Calfpath routes under context key `:gossamer/calfpath-routes` apply the route wrappers i.e.
   a seq of `(fn [routes context & more]) -> routes`, finally updating the context with the wrapped routes."
   ([context]
     (apply-route-wrappers context (kdef/ctx-route-wrappers context)))

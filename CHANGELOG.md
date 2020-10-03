@@ -38,7 +38,7 @@
   - Calfpath to 0.8.0 (requires Clojure 1.8 or up)
 - Documentation
   - [Todo] Add _cljdoc_ badge
-  - [Todo] Reformat docstring for _cljdoc_
+  - Reformat docstring for _cljdoc_
   - [Todo] Add documentation page
 
 
