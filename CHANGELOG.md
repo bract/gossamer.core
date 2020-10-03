@@ -24,9 +24,14 @@
 - [TODO - BREAKING CHANGE] Move inducer `gossamer.core.inducer/abort` to bract.core
 - [Todo] Ring wrapper for request/response log
   - [Todo] Ensure webapp displays request/response logs in dev mode
-- [Todo] Upgrade cambium.core, cambium.codec
-- [Todo] Upgrade cambium.logback
-- [Todo] Upgrade Calfpath
+- Dependency upgrade
+  - Bract modules
+    - bract.core to 0.6.2
+    - bract.cli to 0.6.2-0.1.1
+    - bract.ring to 0.6.2-0.2.0
+  - [Todo] Upgrade cambium.core, cambium.codec
+  - [Todo] Upgrade cambium.logback
+  - [Todo] Upgrade Calfpath
 - Documentation
   - [Todo] Add _cljdoc_ badge
   - [Todo] Reformat docstring for _cljdoc_
