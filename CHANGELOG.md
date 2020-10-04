@@ -24,6 +24,7 @@
 - [BREAKING CHANGE] Drop support for Clojure 1.7 (due to Calfpath)
 - [TODO - BREAKING CHANGE] Move inducer `gossamer.core.inducer/abort` to bract.core
 - [Todo] Ring wrapper for request/response log
+  - [Todo] Add DEV traffic logger fns from bract.dev
   - [Todo] Ensure webapp displays request/response logs in dev mode
 - Dependency upgrade
   - Bract modules
@@ -37,7 +38,7 @@
     - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
   - Calfpath to 0.8.0 (requires Clojure 1.8 or up)
 - Documentation
-  - [Todo] Add _cljdoc_ badge
+  - Add _cljdoc_ badge
   - Reformat docstring for _cljdoc_
   - Add documentation page
 

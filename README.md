@@ -1,5 +1,7 @@
 # gossamer.core
 
+[![cljdoc badge](https://cljdoc.org/badge/bract/gosamer.core)](https://cljdoc.org/d/bract/gosamer.core)
+
 A micro web framework module for Bract.
 
 
