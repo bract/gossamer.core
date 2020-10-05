@@ -19,6 +19,11 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0 / 2020-October-??
+
+- [BREAKING CHANGE] Drop inducer `gossamer.core.inducer/abort` (moved to bract.core)
+
+
 ## 0.6.2-0.3.0-alpha1 / 2020-October-05
 
 - [BREAKING CHANGE] Drop support for Clojure 1.7 (due to Calfpath)
