@@ -19,7 +19,7 @@
   - [Todo] Web route endpoint logging
 
 
-## [WIP] 0.6.2-0.3.0 / 2020-October-??
+## 0.6.2-0.3.0-alpha2 / 2020-October-06
 
 - [BREAKING CHANGE] Drop inducer `gossamer.core.inducer/abort` (moved to bract.core)
 
