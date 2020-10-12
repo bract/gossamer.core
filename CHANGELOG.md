@@ -19,6 +19,13 @@
   - [Todo] Web route endpoint logging
 
 
+## 0.6.2-0.3.0-alpha3 / 2020-October-12
+
+- Use bract.core 0.6.2-alpha3
+- Use bract.cli 0.6.2-0.1.1-alpha3
+- Use bract.ring 0.6.2-0.2.0-alpha3
+
+
 ## 0.6.2-0.3.0-alpha2 / 2020-October-06
 
 - [BREAKING CHANGE] Drop inducer `gossamer.core.inducer/abort` (moved to bract.core)
