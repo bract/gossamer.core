@@ -21,7 +21,7 @@
 
 ## [WIP] 0.6.2-0.3.0 / 2020-October-??
 
-- [Todo] Fix reference to moved `gossamer.core.inducer/abort` (to `bract.core.inducer/abort`)
+- Fix reference to moved `gossamer.core.inducer/abort` (to `bract.core.inducer/abort`)
 - [Todo] Updated Calfpath
 
 
