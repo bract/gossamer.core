@@ -19,16 +19,13 @@
   - [Todo] Web route endpoint logging
 
 
-## [WIP] 0.6.2-0.3.0 / 2020-October-??
+## 0.6.2-0.3.0-beta2 / 2021-January-28
 
 - Use bract.core 0.6.2-beta2
   - and bract.cli  0.6.2-0.1.1-beta2
   - and bract.ring 0.6.2-0.2.0-beta2
 - Fix reference to moved `gossamer.core.inducer/abort` (to `bract.core.inducer/abort`)
 - Use Calfpath 0.8.0 GA
-- [Todo] Add `gossamer/core/config.dev.edn` to represent DEV config
-  - 	`bract/ring/config.dev.edn`
-  - `gossamer/core/config.logback.dev.edn`
 
 
 ## 0.6.2-0.3.0-alpha3 / 2020-October-12
