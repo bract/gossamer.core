@@ -7,9 +7,9 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :pedantic?    :warn
-  :dependencies [[bract/bract.core "0.6.2-alpha3"]
-                 [bract/bract.cli  "0.6.2-0.1.1-alpha3"]
-                 [bract/bract.ring "0.6.2-0.2.0-alpha3"]
+  :dependencies [[bract/bract.core "0.6.2-beta2"]
+                 [bract/bract.cli  "0.6.2-0.1.1-beta2"]
+                 [bract/bract.ring "0.6.2-0.2.0-beta2"]
                  ;; web routing
                  [calfpath         "0.8.0"]
                  ;; logging
@@ -25,6 +25,6 @@
                    :pedantic? :abort}
              :c08 {:dependencies [[org.clojure/clojure "1.8.0"]]}
              :c09 {:dependencies [[org.clojure/clojure "1.9.0"]]}
-             :c10 {:dependencies [[org.clojure/clojure "1.10.1"]]}
+             :c10 {:dependencies [[org.clojure/clojure "1.10.2"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}
   :aliases {"test-all" ["with-profile" "c08:c09:c10" "test"]})
