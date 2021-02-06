@@ -11,7 +11,7 @@
                  [bract/bract.cli  "0.6.2-0.1.1-beta3"]
                  [bract/bract.ring "0.6.2-0.2.0-beta3"]
                  ;; web routing
-                 [calfpath         "0.8.0"]
+                 [calfpath         "0.8.1"]
                  ;; logging
                  [cambium/cambium.core           "1.0.0"]
                  [cambium/cambium.codec-cheshire "1.0.0"]
