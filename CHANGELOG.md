@@ -19,6 +19,14 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0-beta3 / 2021-February-??
+
+- [Todo] Use bract.core 0.6.2-beta3
+  - and bract.cli  0.6.2-0.1.1-beta3
+  - and bract.ring 0.6.2-0.2.0-beta3
+- [Todo] Use Calfpath 0.8.1 (for reverse routing fixes, OpenAPI-compatible path support)
+
+
 ## 0.6.2-0.3.0-beta2 / 2021-January-28
 
 - Use bract.core 0.6.2-beta2
