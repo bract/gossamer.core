@@ -21,7 +21,7 @@
 
 ## [WIP] 0.6.2-0.3.0-alpha4 / 2021-February-??
 
-- [Todo] Use bract.core 0.6.2-alpha4, and other modules
+- Use bract.core 0.6.2-alpha4, and other modules
 - [Todo] Use updated Calfpath that appends wildcard char `*` instead of `:*` to URI
 
 
