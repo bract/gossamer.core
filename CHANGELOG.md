@@ -19,6 +19,12 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0-alpha4 / 2021-February-??
+
+- [Todo] Use bract.core 0.6.2-alpha4, and other modules
+- [Todo] Use updated Calfpath that appends wildcard char `*` instead of `:*` to URI
+
+
 ## 0.6.2-0.3.0-beta3 / 2021-February-06
 
 - Use bract.core 0.6.2-beta3
