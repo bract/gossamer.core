@@ -19,7 +19,7 @@
   - [Todo] Web route endpoint logging
 
 
-## [WIP] 0.6.2-0.3.0-beta5 / 2021-February-??
+## 0.6.2-0.3.0-beta5 / 2021-February-18
 
 - Use bract.core 0.6.2-beta5, and other modules
 - Process CLI args in DEV mode just as main mode
