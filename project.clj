@@ -1,4 +1,4 @@
-(defproject bract/gossamer.core "0.6.2-0.3.0-beta4"
+(defproject bract/gossamer.core "0.6.2-0.3.0-beta5-SNAPSHOT"
   :description "A micro web framework module for Bract"
   :url "https://github.com/bract/gossamer.core"
   :license {:name "Eclipse Public License"
