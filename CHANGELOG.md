@@ -21,7 +21,7 @@
 
 ## [WIP] 0.6.2-0.3.0-beta5 / 2021-February-??
 
-- [Todo] Use bract.core 0.6.2-beta5, and other modules
+- Use bract.core 0.6.2-beta5, and other modules
 - [Todo] Process CLI args in DEV mode just as main mode
   - Remove `:app/cli-inducers` override in `webapp-context.dev.edn`
 
