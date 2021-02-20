@@ -19,6 +19,11 @@
   - [Todo] Web route endpoint logging
 
 
+## 0.6.2-0.3.0-beta6 / 2021-February-21
+
+- Use bract.core 0.6.2-beta6, and other modules
+
+
 ## 0.6.2-0.3.0-beta5 / 2021-February-18
 
 - Use bract.core 0.6.2-beta5, and other modules
