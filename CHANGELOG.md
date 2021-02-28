@@ -22,9 +22,9 @@
 ## [WIP] 0.6.2-0.3.0 / 2021-February-??
 
 - Dependency update
-  - [Todo] bract.core to `0.6.2`
-  - [Todo] bract.cli to `0.6.2-0.1.1`
-  - [Todo] bract.ring to `0.6.2-0.2.0`
+  - bract.core to `0.6.2`
+  - bract.cli to `0.6.2-0.1.1`
+  - bract.ring to `0.6.2-0.2.0`
   - Cambium modules
     - SLF4j modules to 1.7.30
     - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)

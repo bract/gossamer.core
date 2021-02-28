@@ -7,9 +7,9 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :pedantic?    :warn
-  :dependencies [[bract/bract.core "0.6.2-beta6"]
-                 [bract/bract.cli  "0.6.2-0.1.1-beta6"]
-                 [bract/bract.ring "0.6.2-0.2.0-beta6"]
+  :dependencies [[bract/bract.core "0.6.2"]
+                 [bract/bract.cli  "0.6.2-0.1.1"]
+                 [bract/bract.ring "0.6.2-0.2.0"]
                  ;; web routing
                  [calfpath         "0.8.1"]
                  ;; logging
