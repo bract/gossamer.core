@@ -1,4 +1,4 @@
-(defproject bract/gossamer.core "0.6.2-0.3.0-beta6"
+(defproject bract/gossamer.core "0.6.2-0.3.0-SNAPSHOT"
   :description "A micro web framework module for Bract"
   :url "https://github.com/bract/gossamer.core"
   :license {:name "Eclipse Public License"
@@ -25,6 +25,6 @@
                    :pedantic? :abort}
              :c08 {:dependencies [[org.clojure/clojure "1.8.0"]]}
              :c09 {:dependencies [[org.clojure/clojure "1.9.0"]]}
-             :c10 {:dependencies [[org.clojure/clojure "1.10.2"]]}
+             :c10 {:dependencies [[org.clojure/clojure "1.10.3-rc1"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}
   :aliases {"test-all" ["with-profile" "c08:c09:c10" "test"]})

@@ -19,6 +19,29 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0 / 2021-February-??
+
+- Dependency update
+  - [Todo] bract.core to `0.6.2`
+  - [Todo] bract.cli to `0.6.2-0.1.1`
+  - [Todo] bract.ring to `0.6.2-0.2.0`
+  - Cambium modules
+    - SLF4j modules to 1.7.30
+    - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)
+    - cambium.codec-cheshire to 1.0.0 (pulls in Cheshire 5.10.0)
+    - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
+  - Calfpath to `0.8.1` (requires Clojure 1.8 or up)
+- Breaking changes
+  - Drop inducer `gossamer.core.inducer/abort` (moved to bract.core `0.6.2`)
+- Improvements
+- Process CLI args in DEV mode just as main mode
+  - Remove `:app/cli-inducers` override in `webapp-context.dev.edn`
+- Documentation
+  - Add _cljdoc_ badge
+  - Reformat docstring for _cljdoc_
+  - Add documentation page
+
+
 ## 0.6.2-0.3.0-beta6 / 2021-February-21
 
 - Use bract.core 0.6.2-beta6, and other modules
