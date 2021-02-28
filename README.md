@@ -1,11 +1,14 @@
 # gossamer.core
 
+[![cljdoc badge](https://cljdoc.org/badge/bract/gossamer.core)](https://cljdoc.org/d/bract/gossamer.core)
+
 A micro web framework module for Bract.
 
 
 ## Clojars coordinates
 
-Clojars coordinates: `[bract/gossamer.core "0.6.1-0.2.0"]`
+Clojars coordinates: `[bract/gossamer.core "0.6.2-0.3.0-beta6"]` (requires Clojure 1.8 or higher)
+
 
 ## Documentation
 
@@ -18,7 +21,7 @@ Demo applications: https://bract.github.io/documentation.html#demo-applications
 
 ## License
 
-Copyright © 2018-2019 Shantanu Kumar (kumar.shantanu@gmail.com, shantanu.kumar@concur.com)
+Copyright © 2018-2021 [Shantanu Kumar](https://github.com/kumarshantanu)
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

@@ -8,6 +8,7 @@
 
 
 (ns gossamer.core.route
+  "Gossamer specific Calfpath route additions."
   (:require
     [bract.core.keydef :as core-kdef]
     [gossamer.core.keydef   :as kdef]))

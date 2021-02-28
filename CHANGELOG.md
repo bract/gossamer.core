@@ -19,6 +19,104 @@
   - [Todo] Web route endpoint logging
 
 
+## [WIP] 0.6.2-0.3.0 / 2021-February-??
+
+- Dependency update
+  - bract.core to `0.6.2`
+  - bract.cli to `0.6.2-0.1.1`
+  - bract.ring to `0.6.2-0.2.0`
+  - Cambium modules
+    - SLF4j modules to 1.7.30
+    - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)
+    - cambium.codec-cheshire to 1.0.0 (pulls in Cheshire 5.10.0)
+    - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
+  - Calfpath to `0.8.1` (requires Clojure 1.8 or up)
+- Breaking changes
+  - Drop inducer `gossamer.core.inducer/abort` (moved to bract.core `0.6.2`)
+- Improvements
+- Process CLI args in DEV mode just as main mode
+  - Remove `:app/cli-inducers` override in `webapp-context.dev.edn`
+- Documentation
+  - Add _cljdoc_ badge
+  - Reformat docstring for _cljdoc_
+  - Add documentation page
+
+
+## 0.6.2-0.3.0-beta6 / 2021-February-21
+
+- Use bract.core 0.6.2-beta6, and other modules
+
+
+## 0.6.2-0.3.0-beta5 / 2021-February-18
+
+- Use bract.core 0.6.2-beta5, and other modules
+- Process CLI args in DEV mode just as main mode
+  - Remove `:app/cli-inducers` override in `webapp-context.dev.edn`
+
+
+## 0.6.2-0.3.0-beta4 / 2021-February-14
+
+- Use bract.core 0.6.2-beta4, and other modules
+
+
+## 0.6.2-0.3.0-alpha4 / 2021-February-14
+
+- Use bract.core 0.6.2-alpha4, and other modules
+
+
+## 0.6.2-0.3.0-beta3 / 2021-February-06
+
+- Use bract.core 0.6.2-beta3
+  - and bract.cli  0.6.2-0.1.1-beta3
+  - and bract.ring 0.6.2-0.2.0-beta3
+- Use Calfpath 0.8.1 (for reverse routing fixes, OpenAPI-compatible path support)
+
+
+## 0.6.2-0.3.0-beta2 / 2021-January-28
+
+- Use bract.core 0.6.2-beta2
+  - and bract.cli  0.6.2-0.1.1-beta2
+  - and bract.ring 0.6.2-0.2.0-beta2
+- Fix reference to moved `gossamer.core.inducer/abort` (to `bract.core.inducer/abort`)
+- Use Calfpath 0.8.0 GA
+
+
+## 0.6.2-0.3.0-alpha3 / 2020-October-12
+
+- Use bract.core 0.6.2-alpha3
+- Use bract.cli 0.6.2-0.1.1-alpha3
+- Use bract.ring 0.6.2-0.2.0-alpha3
+
+
+## 0.6.2-0.3.0-alpha2 / 2020-October-06
+
+- [BREAKING CHANGE] Drop inducer `gossamer.core.inducer/abort` (moved to bract.core)
+
+
+## 0.6.2-0.3.0-alpha1 / 2020-October-05
+
+- [BREAKING CHANGE] Drop support for Clojure 1.7 (due to Calfpath)
+- [TODO - BREAKING CHANGE] Move inducer `gossamer.core.inducer/abort` to bract.core
+- [Todo] Ring wrapper for request/response log
+  - [Todo] Add DEV traffic logger fns from bract.dev
+  - [Todo] Ensure webapp displays request/response logs in dev mode
+- Dependency upgrade
+  - Bract modules
+    - bract.core to 0.6.2
+    - bract.cli to 0.6.2-0.1.1
+    - bract.ring to 0.6.2-0.2.0
+  - Cambium modules
+    - SLF4j modules to 1.7.30
+    - cambium.core to 1.0.0 (pulls in SLF4j 1.7.30)
+    - cambium.codec-cheshire to 1.0.0 (pulls in Cheshire 5.10.0)
+    - cambium.logback.json 0.4.4 (pulls in Jackson 2.10.2, same as Cheshire 5.10.0)
+  - Calfpath to 0.8.0 (requires Clojure 1.8 or up)
+- Documentation
+  - Add _cljdoc_ badge
+  - Reformat docstring for _cljdoc_
+  - Add documentation page
+
+
 ## 0.6.1-0.2.0 / 2019-January-10
 
 - Add resources for webapp workflow

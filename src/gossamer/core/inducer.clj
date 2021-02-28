@@ -8,6 +8,7 @@
 
 
 (ns gossamer.core.inducer
+  "Inducers in the gossamer.core module."
   (:require
     [bract.core.echo      :as echo]
     [bract.core.inducer   :as core-inducer]
@@ -17,18 +18,6 @@
     [calfpath.route       :as croute]
     [cambium.codec        :as codec]
     [gossamer.core.keydef :as kdef]))
-
-
-(defn abort
-  "Abort the entire inducer chain."
-  ;; TODO: Move this into bract.core.inducer
-  ([context]
-    (assoc context
-      (key core-kdef/ctx-exit?) true))
-  ([context message]
-    (echo/abort message)
-    (core-util/err-println "ERROR:" message)
-    (abort context)))
 
 
 (defn log-mdc-codec-init-only
@@ -84,7 +73,7 @@
 
 
 (defn apply-route-wrappers
-  "Given a context with Calfpath routes under context key :gossamer/calfpath-routes apply the route wrappers i.e.
+  "Given a context with Calfpath routes under context key `:gossamer/calfpath-routes` apply the route wrappers i.e.
   a seq of `(fn [routes context & more]) -> routes`, finally updating the context with the wrapped routes."
   ([context]
     (apply-route-wrappers context (kdef/ctx-route-wrappers context)))

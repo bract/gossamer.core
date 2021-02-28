@@ -8,6 +8,7 @@
 
 
 (ns gossamer.core.util
+  "Utility functions."
   (:require
     [bract.core.echo :as echo]
     [bract.core.keydef :as bc-kdef]

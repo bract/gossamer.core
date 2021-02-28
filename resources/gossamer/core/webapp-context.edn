@@ -24,7 +24,7 @@
                               bract.core.inducer/read-config]
  :app/log-inducers           [bract.core.inducer/export-as-sysprops
                               gossamer.core.inducer/log-mdc-codec-init]
- :app/init-inducers          [(gossamer.core.inducer/abort
+ :app/init-inducers          [(bract.core.inducer/abort
                                 "You must specify key :app/init-inducers (vector) in bract-context.edn")]
  :app/route-inducers         [gossamer.core.inducer/apply-route-wrappers
                               gossamer.core.inducer/calfpath-routes->ring-handler
